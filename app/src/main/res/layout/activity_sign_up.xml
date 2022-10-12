@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC2FD"
+    tools:context=".SignUpActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_ellipse"
+        android:layout_gravity="center"
+        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Регистрация"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="60dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/userLogin"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:hint="Login"
+        android:inputType="text"
+        android:paddingStart="20dp"
+        android:background="@drawable/bg_edit_text"
+        android:layout_marginHorizontal="44dp"
+        android:layout_marginTop="240dp"/>
+
+    <EditText
+        android:id="@+id/userPassword"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+        android:background="@drawable/bg_edit_text"
+        android:layout_marginHorizontal="44dp"
+        android:layout_marginTop="300dp"/>
+
+    <EditText
+        android:id="@+id/userEmail"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="20dp"
+        android:background="@drawable/bg_edit_text"
+        android:layout_marginHorizontal="44dp"
+        android:layout_marginTop="360dp"/>
+
+    <EditText
+        android:id="@+id/userPhone"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:paddingStart="20dp"
+        android:background="@drawable/bg_edit_text"
+        android:layout_marginHorizontal="44dp"
+        android:layout_marginTop="420dp"/>
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="Зарегистрироваться"
+        android:background="@drawable/bg_btn_reg"
+        android:layout_marginHorizontal="44dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="200dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Уже есть аккаунт?"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="150dp"
+        android:textColor="@color/black"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="Войти"
+        android:background="@drawable/bg_btn_log"
+        android:layout_marginHorizontal="110dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="100dp"/>
+</FrameLayout>
